@@ -4,6 +4,7 @@ PYTHONPATH?=src
 setup:
 		echo VER=${VER}
 		python --version
+		pip install flake8
 
 .PHONY: lint
 lint:

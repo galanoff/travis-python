@@ -4,9 +4,9 @@ env:
   - VER=2
 python:
   - "2.7"
-  - "3.7"
+  - "3.6"
 install:
   - make setup
 script:
   - make lint
-  - make test
+  - make tests
