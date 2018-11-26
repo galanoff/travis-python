@@ -8,7 +8,7 @@ def fun_tested():
 def fun_half_tested(cond):
     if cond:
         var2 = False
-        return var2
+        return False
     return True
 
 
